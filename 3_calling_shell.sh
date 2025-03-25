@@ -5,7 +5,7 @@ COMMENT
 #!/bin/sh
 hello() {
 echo -n  "Hello, "
-echo $1 $2 $3
+echo $name_1 $name_2 $name_3
 }
 hello RAM Shiva Vishnu
 
