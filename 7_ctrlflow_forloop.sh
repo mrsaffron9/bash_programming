@@ -1,11 +1,10 @@
 <<COMMENT
 this program is add sum of all numbers by using for loop
 COMMENT
-
 #!/bin/bash
-sum=0
-for i in {1..1000}
+multi=1
+for n in {1..1000}
 do
-	sum=`expr $sum + $i`
+	smulti=$(expr $multi + $n)
 done
-echo "Sum = $sum"
+echo "Multi = $multi"
