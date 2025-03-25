@@ -1,7 +1,6 @@
 <<COMMENT
-similar to test program without using test instead using square brackets [ ]
+similar to test program without using test command instead using square brackets [ ]
 COMMENT
-
 #!/bin/bash
 if [ -f "$filename" ]
 then 
