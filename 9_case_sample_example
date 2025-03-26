@@ -1,0 +1,28 @@
+#!/bin/bash
+echo "what day is today?"
+read today
+case $today in
+one|1)
+echo "Sunday"
+;;
+two|2)
+echo "Monday"
+;;
+three|3)
+echo "Tuesday"
+;;
+four|4)
+echo "Wednesday"
+;;
+five|5)
+echo "Thursday"
+;;
+six|6)
+echo "Friday"
+;;
+seven|7)
+echo "saturday"
+;;
+*)
+echo "unkonwn days"
+esac
