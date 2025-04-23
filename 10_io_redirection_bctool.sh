@@ -1,5 +1,5 @@
 <<COMMENT 
-We are using input redirection to solve this expression.
+We are using input redirection to solve this Expression.
 To calculate any expression to get float points you need to use bc tool. we use bc tool in script to make our calculation easy to get float points.
 Note: "shell doesn't give you answer in float points".
 syntax: variable_name=$(bc << EOF
